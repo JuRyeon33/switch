@@ -5,8 +5,16 @@ public class Main {
         String mood = "happy";
 
         switch (mood) {
-            case "happy";
+            case "happy":
                 System.out.println("나는 행복합니다.");
+
+
+            case "angry":
+                System.out.println("나는 화났습니다.");
+                break;
+
+            case "sad":
+                System.out.println("나는 슬픕니다");
                 break;
         }
     }
