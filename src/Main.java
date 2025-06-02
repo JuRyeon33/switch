@@ -2,12 +2,11 @@
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        String mood = "happy";
+        String mood = "tired";
 
         switch (mood) {
             case "happy":
                 System.out.println("나는 행복합니다.");
-
 
             case "angry":
                 System.out.println("나는 화났습니다.");
@@ -15,6 +14,10 @@ public class Main {
 
             case "sad":
                 System.out.println("나는 슬픕니다");
+                break;
+
+            default:
+                System.out.println("지금 내 기분을 표현할 수 없습니다.");
                 break;
         }
     }
